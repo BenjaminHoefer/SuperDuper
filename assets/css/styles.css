@@ -1,0 +1,179 @@
+/* Import google fonts */
+@font-face {
+    font-family: "gildadisplay";
+    src: url(../fonts/GildaDisplay-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "mavenpro";
+    src: url(../fonts/MavenPro-VariableFont_wght.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General layout */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+/* General typography */
+h1, h2, h3 {
+    font-family: "gildadisplay";
+}
+
+p {
+    font-family: "mavenpro";
+}
+
+/* header */
+header {
+    background-color: #333;
+    height: 75vh;
+    width: 100vw;
+}
+
+.name {
+    color: #ffffff;
+    opacity: 0.7;
+    width: 50px;
+    padding: 5px;
+}
+
+.logo {
+    width: 200px;
+    height: 180px;
+    margin: 130px auto 0 auto;
+    background: #8507E1;
+    background: -moz-linear-gradient(45deg, #8507E1 0%, #194894 60%, #3DC8D5 100%);
+    background: -webkit-linear-gradient(45deg, #8507E1 0%, #194894 60%, #3DC8D5 100%);
+    background: linear-gradient(45deg, #8507E1 0%, #194894 60%, #3DC8D5 100%);
+    border-radius: 5px;
+}
+
+header .logo{
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 50px;
+    color: #ffffff;
+    opacity: 0.8;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+header nav ul{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 1300px;
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    text-align: right;
+    padding: 3px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+.intro {
+    font-weight: 900;
+    height: 75vh;
+    width: 100vw;
+}
+
+.intro article {
+    width: 500px;
+    margin: 100px 0 0 100px;
+}
+
+.intro article h2 {
+    font-size: 40px;
+}
+
+.intro article p:nth-of-type(1) {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.intro article p:nth-of-type(2) {
+    width: 400px;
+    margin-top: 25px;
+}
+
+main section article {
+    margin-bottom: 100px;
+}
+
+main section article h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+main section article p {
+    font-size: 15px;
+}
+
+.main {
+    width: 100vw;
+}
+
+.main .horses {
+    width: 1000px;
+    height: 75vh;
+    margin: 0 auto 0 auto;
+}
+
+.main .horses img {
+    width: 750px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.main .harvester {
+    width: 1000px;
+    height: 75vh;
+    margin: 0 auto 0 auto;
+}
+
+.main .harvester img {
+    width: 750px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.main .woman {
+    width: 1000px;
+    height: 75vh;
+    margin: 0 auto 0 auto;
+}
+
+.main .woman img {
+    width: 750px;
+    height: 500px;
+    border-radius: 10px;
+}
